@@ -120,6 +120,14 @@ Returns current version of Loid
 ```
 $ loid get --version
 ```
+### Loid in action
+
+
+https://github.com/captain0jay/loid/assets/72175165/81960239-90db-4b2f-b624-eb2593aa9c0c
+
+
+
+
 ### License
 Loid is being licensed under the [MIT License](https://github.com/captain0jay/loid/blob/main/LICENSE).
 
