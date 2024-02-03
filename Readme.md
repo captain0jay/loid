@@ -10,6 +10,9 @@ Loid is a CLI tool that makes it easy to Read,write and publish blogs on hashnod
 
 > :book: - Read loids blog <a href="https://captainjay.hashnode.dev/loid-read-write-and-publish-blogs-on-hashnode-straight-from-your-terminal">Here</a>.
 
+### Content
+Important:   Make sure to write the blog in markdown, you don't have to give an extension ('.md') for filename Loid does that for you.
+
 ### Installation
 Make sure you have `pip` and `python>=3.6` installed on your machine and follow the steps.
 
