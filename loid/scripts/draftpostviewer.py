@@ -17,13 +17,12 @@ def main(stdscr, content):
         stdscr.refresh()
 
         ch = stdscr.getch()
-        if ch == ord('q') or ch == curses.KEY_EXIT:  # Check for 'q' or exit key
+        if ch == ord('q') or ch == 27:  # Check for 'q' or the Escape key
             break
         elif ch == curses.KEY_UP and start_row > 0:
             start_row -= 1
         elif ch == curses.KEY_DOWN and start_row < len(lines) - R:
             start_row += 1
-
 
 # Example usage
 def openviewer(content_to_view):

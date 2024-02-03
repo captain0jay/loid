@@ -110,8 +110,9 @@ def main():
     if args.command:
         # Handle 'show' command
         command = args.command[0]
-
-        if command == 'open':
+        if command == 'get':
+            print('Fetching...')
+        elif command == 'open':
             if args.filename:
                 openeditor(args.filename)
             else:

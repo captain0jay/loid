@@ -77,7 +77,8 @@ def publishonlinedraftmain(draftid):
     publishonlinedraft(api_url,headers,draftid)
 
 def feedmain():
-    numofposts = input("How many posts do you want?: ")
+    strnumofposts = input("How many posts do you want?: ")
+    numofposts = int(strnumofposts)
     getfeed(api_url,headers,numofposts)
 
 def commentonposts():

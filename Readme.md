@@ -1,11 +1,14 @@
 <img src="media/loidbanner.svg">
-## Loid - Read, write and publish from your terminal.
+
+### Loid - Read, write and publish from your terminal.
 
 Loid is a CLI tool that makes it easy to Read,write and publish blogs on hashnode without leaving the terminal. This project was made using Hashnode API for [Hashnode](https://hashnode.com/hackathons/apihackathon?source=hashnode-hackathons-listing) hackathon.
 
 > :warning: - You need personal access token from hashnode to make Loid work.
 
 > :package: - Check out <a href="https://pypi.org/project/loid/">Loid on PyPI</a>.
+
+> :book: - Read loids blog <a href="https://captainjay.hashnode.dev/loid-read-write-and-publish-blogs-on-hashnode-straight-from-your-terminal">Here</a>.
 
 ### Installation
 Make sure you have `pip` and `python>=3.6` installed on your machine and follow the steps.
@@ -55,6 +58,18 @@ loid get --auth
 
 </details>
 
+### Exiting from editor or viewer
+
+If for some reason Ctrl + q doesn't work for quitting the editor Ctrl + c should be used it will give the error but ignore it for time being it will get fixed soon
+
+Update:
+
+1. Whenever you are viewing posts from loid get --feed or loid publication example.com you have to press Q and then Enter to exit
+
+2. while when you are fetching posts or draft separately just press Q to exit
+
+3. When you have opened an editor to edit your draft press Ctrl + q to exit
+
 ### Usage
 Use `loid` with commands from the list given here to perform various tasks avilable on hashnode
 
@@ -100,7 +115,7 @@ $ loid get --listonlinedrafts
 ```
 Returns current version of Loid
 ```
-$ loid --version
+$ loid get --version
 ```
 ### License
 Loid is being licensed under the [MIT License](https://github.com/captain0jay/loid/blob/main/LICENSE).
