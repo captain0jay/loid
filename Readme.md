@@ -34,7 +34,7 @@ pip install git+http://github.com/captain0jay/loid.git
 <details>
   <summary><h4>2. Set the <code>BLOG_DOMAIN</code> environment variable</h4></summary>
 
-After the package installed on your system, it's time to add the `BLOG_DOMAIN` environment variable. Create an account on [hashnode.com](https://hashnode.com/), train your GPT model and replace your email with `<HASHNODE_BLOG_DOMAIN>` in the following options.
+After the package installed on your system, it's time to add the `BLOG_DOMAIN` environment variable. Create an account on [hashnode.com](https://hashnode.com/), replace your email with `<HASHNODE_BLOG_DOMAIN>` in the following options.
 
 ##### > If you use the default bash shell
 ```sh
